@@ -4,9 +4,11 @@
 		<title>Bootstrap 3</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="../public/stylesheets/bootstrap.css"/>
+		<link rel="stylesheet" type="text/css" href="../public/stylesheets/style.css"/>
 	</head>
 	<body>
 
+		<div id="wrap">
 <!------------------------------------------------------------------------------------------->
 <!-----------------------------------------Navbar-------------------------------------------->
 <!------------------------------------------------------------------------------------------->
@@ -93,23 +95,36 @@
 					<p>CSS tables might be fine for you. Or it might not. Tables do render a bit differently than just a regular block-level div does. For instance the 100% width thing. A table will only stretch to be as wide as it needs to for the content inside it whereas by default a block level element will expand to</p>
 					<a href="#" class="btn btn-default">Read More</a> 	
 				</div>						
-			</div>type='text/javascript'
+			</div>
 		</div>
 
 <!------------------------------------------------------------------------------------------->
 <!-----------------------------------------Footer-------------------------------------------->
 <!------------------------------------------------------------------------------------------->
 
+		
+		</div>
+
+			<div id="footer">
+				<div class="container">
+					<p class="text-muted navbar-text pull-left">This is my footer</p>
+				</div>
+			</div>
+			 
+
 		<!--See Navbar-->
-		<div class="container">
-		<div class="navbar navbar-default navbar-fixed-bottom">
+		<!--<footer class="block">
+
+		<div class="container" id="footer">
+		<div class="navbar navbar-default navbar-static-bottom">
 			<div class="container">
 				<!--See Navbar Button-->
-				<p class="navbar-text pull-left">Site Built By Cameron</p>
-				<a href="#" class="navbar-btn btn btn-danger pull-right">Subscribe on YouTube</a>
+				<!--<p class="navbar-text pull-left">Site Built By Cameron</p>
+				<a href="#" class="navbar-btn btn btn-danger pull-right">Subscribe</a>
 			</div>
 		</div>
 		</div>
+		</footer>
 
 		<!--See Jquery Change Before Deploy-->
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
