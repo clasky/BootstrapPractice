@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bootstrap 3</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="../public/stylesheets/bootstrap.css"/>
+	</head>
+	<body>
+
+<!------------------------------------------------------------------------------------------->
+<!-----------------------------------------Navbar-------------------------------------------->
+<!------------------------------------------------------------------------------------------->
+
+		<!--See Navbar-->
+		<div class="navbar navbar-inverse navbar-static-top">
+			<div class="container">
+				<!--See Navbar Title-->
+				<a href="#" class="navbar-brand">Tech Site</a>
+				
+				<!--See Navbar Button-->
+				<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse"> 
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+
+				<!--See Collapsed Navbar-->
+				<div class="collapse navbar-collapse navHeaderCollapse">
+					<!--See Navbar List-->
+					<ul class="nav navbar-nav navbar-right">
+						<!--See Navbar Active-->
+						<li class="active"><a href="#">Home</a></li>
+						<li><a href="#">Blog</a></li>
+						<!--See Navbar Dropdown-->									
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Social Media <b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Twitter</a></li>
+								<li><a href="#">Facebook</a></li>
+								<li><a href="#">Google+</a></li>
+								<li><a href="#">Instagram</a></li>
+							</ul>
+						</li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+<!------------------------------------------------------------------------------------------->
+<!---------------------------------------Jumbotron------------------------------------------->
+<!------------------------------------------------------------------------------------------->
+
+		<div class="container text-center">
+			<!--See Jumbotron-->
+			<div class="jumbotron">
+				<h1>Hello World!</h1>
+				<p>I am practicing working with twitter bootstrap to create a responsive web site.</p>
+				<a href="#" class="btn btn-default">Watch Now!</a>
+				<a href="#" class="btn btn-info">Tweet it!</a>	
+			</div>
+		</div>
+
+
+<!------------------------------------------------------------------------------------------->
+<!------------------------------------------Grid--------------------------------------------->
+<!------------------------------------------------------------------------------------------->
+
+		<div class="container">
+			<div class="row">
+				<!--See Column-->
+				<div class="col-md-3">
+					<h3><a href="#">$500 Gaming PC Build</a></h3>
+					<p>CSS tables might be fine for you. Or it might not. Tables do render a bit differently than just a regular block-level div does. For instance the 100% width thing. A table will only stretch to be as wide as it needs to for the content inside it whereas by default a block level element will expand to</p>
+					<a href="#" class="btn btn-default">Read More</a> 	
+				</div>
+
+				<div class="col-md-3">
+					<h3><a href="#">$500 Gaming PC Build</a></h3>
+					<p>CSS tables might be fine for you. Or it might not. Tables do render a bit differently than just a regular block-level div does. For instance the 100% width thing. A table will only stretch to be as wide as it needs to for the content inside it whereas by default a block level element will expand to</p>
+					<a href="#" class="btn btn-default">Read More</a> 	
+				</div>			
+
+				<div class="col-md-3">
+					<h3><a href="#">$500 Gaming PC Build</a></h3>
+					<p>CSS tables might be fine for you. Or it might not. Tables do render a bit differently than just a regular block-level div does. For instance the 100% width thing. A table will only stretch to be as wide as it needs to for the content inside it whereas by default a block level element will expand to</p>
+					<a href="#" class="btn btn-default">Read More</a> 	
+				</div>			
+
+				<div class="col-md-3">
+					<h3><a href="#">$500 Gaming PC Build</a></h3>
+					<p>CSS tables might be fine for you. Or it might not. Tables do render a bit differently than just a regular block-level div does. For instance the 100% width thing. A table will only stretch to be as wide as it needs to for the content inside it whereas by default a block level element will expand to</p>
+					<a href="#" class="btn btn-default">Read More</a> 	
+				</div>						
+			</div>type='text/javascript'
+		</div>
+
+<!------------------------------------------------------------------------------------------->
+<!-----------------------------------------Footer-------------------------------------------->
+<!------------------------------------------------------------------------------------------->
+
+		<!--See Navbar-->
+		<div class="container">
+		<div class="navbar navbar-default navbar-fixed-bottom">
+			<div class="container">
+				<!--See Navbar Button-->
+				<p class="navbar-text pull-left">Site Built By Cameron</p>
+				<a href="#" class="navbar-btn btn btn-danger pull-right">Subscribe on YouTube</a>
+			</div>
+		</div>
+		</div>
+
+		<!--See Jquery Change Before Deploy-->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script type="text/javascript" src="../public/javascripts/bootstrap.js"></script>
+	</body>
+</html>

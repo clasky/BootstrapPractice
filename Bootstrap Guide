@@ -1,0 +1,42 @@
+Jquery
+change the link to // instead of http: when deploying to the web so that it will support http: and https:
+
+Navbar
+navbar-default = Default gray navbar.
+navbar-inverse = Black navbar.
+navbar-static-top = Takes away the rounded cornners scrolls away when scrolled down.
+navbar-fixed-top = Takes away the rounded cornners and when scrolling the navbar content stays in the browsers view port when scrolled.
+navbar-text = Centers text vertically in navbar
+
+Navbar Title
+Gives the title of the site in the nav bar.
+href="#" This is just a 'null' value - which means the anchor will be seen as live and should produce a hand pointer on hover - but it's use will take the user back to the same page he is on. 
+
+Collapsed Navbar
+This div is only seen when on a mobile device or the screen is so small that things collapse and a user presses a button to expand the div.
+
+Navbar List
+nav and navbar-nav = give the proper styling for the navbar
+navbar-right gives = the position of the items on the navbar
+
+Navbar Button
+navbar-toggle = The button will toggle on and off.
+data-toggle="collapse" = The button toggles when collapsed.
+data-target=".navHeaderCollapse" = Specifies the object to monitor for the collapse.
+
+Navbar Active
+active = The button or item is highlighted and pressed in.
+
+Navbar Dropdown
+dropdown = specifies that its a dropdown menu.
+dropdown-toggle = specifies that the menu is toggled on and off.
+data-toggle = specifies that a the menue is toggled when dropeddown.
+caret = adds an arrow after the button to indicate its a dropdown menu.
+
+Navbar Button
+pull-left = pulls the content left.
+navbar-btn = centered button for the navbar.
+btn-danger = style of button you can go on getbootstrap.com and see different styles
+btn = gives the default style for the btn makes it look like a button.
+pull-right = pulls teh content right.
+
