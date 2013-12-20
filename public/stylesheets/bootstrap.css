@@ -5965,3 +5965,8 @@ td.visible-print {
     display: none !important;
   }
 }
+
+#footer
+{
+  margin: 30px;
+}
